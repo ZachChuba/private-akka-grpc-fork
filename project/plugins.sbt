@@ -1,5 +1,11 @@
 enablePlugins(BuildInfoPlugin)
 
+ThisBuild / dependencyOverrides ++= Seq(
+  "org.yaml" % "snakeyaml" % "2.3",
+  "org.apache.xmlgraphics" % "batik-dom" % "1.13",
+  "org.scala-lang.modules" %% "scala-xml" % "2.3.0"
+)
+
 val sbtProtocV = "1.0.6"
 
 buildInfoKeys := Seq[BuildInfoKey]("sbtProtocVersion" -> sbtProtocV)

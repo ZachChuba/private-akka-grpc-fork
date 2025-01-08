@@ -5,11 +5,11 @@ import org.gradle.api.Project
 
 class AkkaGrpcPluginExtension {
 
-    static final String PROTOC_VERSION = "3.20.1" // checked synced by VersionSyncCheckPlugin
+    static final String PROTOC_VERSION = "3.25.5" // checked synced by VersionSyncCheckPlugin
 
     static final String PROTOC_PLUGIN_SCALA_VERSION = "2.12"
 
-    static final String GRPC_VERSION = "1.48.1" // checked synced by VersionSyncCheckPlugin
+    static final String GRPC_VERSION = "1.69.0" // checked synced by VersionSyncCheckPlugin
 
     static final String PLUGIN_CODE = 'com.lightbend.akka.grpc.gradle'
 
